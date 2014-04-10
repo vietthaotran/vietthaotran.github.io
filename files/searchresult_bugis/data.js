@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"searchresult_bugis.html",
-  "generationDate":new Date(1397120261192.66),
+  "generationDate":new Date(1397121770061.49),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

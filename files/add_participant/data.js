@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"add_participant.html",
-  "generationDate":new Date(1397120260789.72),
+  "generationDate":new Date(1397121769587.05),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -30,26 +30,26 @@
 },
     "diagram":{
       "objects":[{
-          "id":"318f6baa86684cb1a952574e287b4180",
-          "label":"popup",
+          "id":"eeb7b3308f854c988275af67a1d4e676",
+          "label":"ErrorMsg",
           "type":"dynamicPanel",
           "styleType":"dynamicPanel",
           "visible":true,
           "style":{
             "location":{
               "x":10,
-              "y":101},
+              "y":141},
             "size":{
               "width":300,
-              "height":279}},
+              "height":200}},
           "adaptiveStyles":{
 },
           "scrollbars":"none",
           "fitToContent":false,
           "propagate":false,
           "diagrams":[{
-              "id":"907af320375149ab946fe3047cd3c162",
-              "label":"nothing",
+              "id":"e50f819569294db7859202e6257eed25",
+              "label":"State1",
               "type":"Axure:PanelDiagram",
               "objects":[],
               "style":{
@@ -63,35 +63,97 @@
               "adaptiveStyles":{
 }},
 {
-              "id":"252c1c37608245cfa90fac2e15c46c69",
-              "label":"State1",
+              "id":"a384075ccfdf49a898476106351c7c95",
+              "label":"noneselected",
               "type":"Axure:PanelDiagram",
               "objects":[{
-                  "id":"66427b11df70457d9e431252aba996b4",
+                  "id":"8b034b09dada471c9aee7d7ea7b1df21",
                   "label":"",
-                  "parentDynamicPanel":"318f6baa86684cb1a952574e287b4180",
+                  "parentDynamicPanel":"eeb7b3308f854c988275af67a1d4e676",
                   "panelIndex":1,
-                  "type":"textBox",
-                  "styleType":"textBox",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
                   "visible":true,
                   "style":{
-                    "fontName":"'MyriadPro-Regular', 'Myriad Pro'",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF3DBFD9,
-                      "opacity":1},
                     "location":{
-                      "x":10,
+                      "x":-14,
                       "y":10},
                     "size":{
-                      "width":200,
-                      "height":25}},
+                      "width":320,
+                      "height":200}},
                   "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"711abb1679b042bba0491a2f6440c473",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"eeb7b3308f854c988275af67a1d4e676",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":-14,
+                          "y":10},
+                        "size":{
+                          "width":320,
+                          "height":200}},
+                      "adaptiveStyles":{
 }}],
+                  "images":{
+                    "normal~":"images/add_participant/u1.png"}},
+{
+                  "id":"9c8c94eb5e424b06bc7ab5510bca2b23",
+                  "label":"",
+                  "parentDynamicPanel":"eeb7b3308f854c988275af67a1d4e676",
+                  "panelIndex":1,
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":250,
+                      "y":50},
+                    "size":{
+                      "width":40,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set ErrorMsg to State1",
+                              "panelsToStates":[{
+                                  "panelPath":["eeb7b3308f854c988275af67a1d4e676"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelOrder",
+                              "description":"Send ErrorMsg to Back",
+                              "panelPaths":[{
+                                  "panelPath":["eeb7b3308f854c988275af67a1d4e676"],
+                                  "setOrderInfo":{
+                                    "bringToFront":false}}]}]}]}},
+                  "tabbable":true}],
               "style":{
                 "fill":{
                   "fillType":"solid",
-                  "color":0xFFFFFFFF},
+                  "color":0xFFFFFF},
                 "image":null,
                 "imageHorizontalAlignment":"near",
                 "imageVerticalAlignment":"near",
@@ -130,7 +192,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/add_participant/u2.png"}},
+            "normal~":"images/add_participant/u4.png"}},
 {
           "id":"09e4d65f908143f8954258f6f454b0d3",
           "label":"1",
@@ -477,27 +539,12 @@
                       "waitTime":1500},
 {
                       "action":"setPanelOrder",
-                      "description":"Bring popup to Front ",
-                      "panelPaths":[{
-                          "panelPath":["318f6baa86684cb1a952574e287b4180"],
-                          "setOrderInfo":{
-                            "bringToFront":true}}]},
+                      "description":"Bring Widget to Front/Back",
+                      "panelPaths":[]},
 {
                       "action":"setPanelState",
-                      "description":"Set popup to State1",
-                      "panelsToStates":[{
-                          "panelPath":["318f6baa86684cb1a952574e287b4180"],
-                          "stateInfo":{
-                            "setStateType":"diagram",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "compress":false}}}]}]}]},
+                      "description":"Set Panel to State",
+                      "panelsToStates":[]}]}]},
             "onLostFocus":{
               "description":"OnLostFocus",
               "cases":[{
@@ -531,7 +578,120 @@
             "onClick":{
               "description":"OnClick",
               "cases":[{
-                  "description":"Case 1",
+                  "description":"none selected<br> (If visibility of 1 equals false and visibility of 2 equals false and visibility of 3 equals false and visibility of 4 equals false and visibility of 5 equals false)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetVisibility",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["09e4d65f908143f8954258f6f454b0d3"]}]},
+                      "rightExpr":{
+                        "exprType":"booleanLiteral",
+                        "value":false}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"&&",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetVisibility",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":false,
+                              "isFocused":false,
+                              "isTarget":false,
+                              "value":["e81548a619f84132be1a56ed97e614a8"]}]},
+                        "rightExpr":{
+                          "exprType":"booleanLiteral",
+                          "value":false}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"&&",
+                        "leftExpr":{
+                          "exprType":"binaryOp",
+                          "op":"==",
+                          "leftExpr":{
+                            "exprType":"fcall",
+                            "functionName":"GetWidgetVisibility",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["4aa29a849eea4393b66a6b3edaf47166"]}]},
+                          "rightExpr":{
+                            "exprType":"booleanLiteral",
+                            "value":false}},
+                        "rightExpr":{
+                          "exprType":"binaryOp",
+                          "op":"&&",
+                          "leftExpr":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetVisibility",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["6634a6c14bdf476daca59c2a3025356b"]}]},
+                            "rightExpr":{
+                              "exprType":"booleanLiteral",
+                              "value":false}},
+                          "rightExpr":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetVisibility",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["3e9740f7b6064e0482fc9e95891ca6e0"]}]},
+                            "rightExpr":{
+                              "exprType":"booleanLiteral",
+                              "value":false}}}}}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set ErrorMsg to noneselected",
+                      "panelsToStates":[{
+                          "panelPath":["eeb7b3308f854c988275af67a1d4e676"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]},
+{
+                      "action":"setPanelOrder",
+                      "description":"Bring ErrorMsg to Front ",
+                      "panelPaths":[{
+                          "panelPath":["eeb7b3308f854c988275af67a1d4e676"],
+                          "setOrderInfo":{
+                            "bringToFront":true}}]}]},
+{
+                  "description":"Else<br> (Else If True)",
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"linkWindow",
@@ -669,53 +829,57 @@
   "masters":{
 },
   "objectPaths":{
-    "318f6baa86684cb1a952574e287b4180":{
+    "eeb7b3308f854c988275af67a1d4e676":{
       "scriptId":"u0"},
-    "66427b11df70457d9e431252aba996b4":{
+    "8b034b09dada471c9aee7d7ea7b1df21":{
       "scriptId":"u1"},
-    "5f70edcf4312438c810f13d0b8a14b50":{
+    "711abb1679b042bba0491a2f6440c473":{
       "scriptId":"u2"},
-    "8636e255f35f4952a993d58e33dc44d6":{
+    "9c8c94eb5e424b06bc7ab5510bca2b23":{
       "scriptId":"u3"},
-    "09e4d65f908143f8954258f6f454b0d3":{
+    "5f70edcf4312438c810f13d0b8a14b50":{
       "scriptId":"u4"},
-    "4ea18625801f43579ec38bb7c1135c10":{
+    "8636e255f35f4952a993d58e33dc44d6":{
       "scriptId":"u5"},
-    "e81548a619f84132be1a56ed97e614a8":{
+    "09e4d65f908143f8954258f6f454b0d3":{
       "scriptId":"u6"},
-    "38c16340c4824d2783ab741009c75b98":{
+    "4ea18625801f43579ec38bb7c1135c10":{
       "scriptId":"u7"},
-    "6634a6c14bdf476daca59c2a3025356b":{
+    "e81548a619f84132be1a56ed97e614a8":{
       "scriptId":"u8"},
-    "6fc5a7a401fd4372a0aa20a0a70148f4":{
+    "38c16340c4824d2783ab741009c75b98":{
       "scriptId":"u9"},
-    "3e9740f7b6064e0482fc9e95891ca6e0":{
+    "6634a6c14bdf476daca59c2a3025356b":{
       "scriptId":"u10"},
-    "5732f510076a434d93fee9a6f76793e2":{
+    "6fc5a7a401fd4372a0aa20a0a70148f4":{
       "scriptId":"u11"},
-    "763386a6a7094fb1b7e701e2d926c5ea":{
+    "3e9740f7b6064e0482fc9e95891ca6e0":{
       "scriptId":"u12"},
-    "837b4219f0fa41c1ab10234ac301ebfc":{
+    "5732f510076a434d93fee9a6f76793e2":{
       "scriptId":"u13"},
-    "73c7f26e05f14a3aa9ae9ee28c2b3871":{
+    "763386a6a7094fb1b7e701e2d926c5ea":{
       "scriptId":"u14"},
-    "ac952bcd0e20413882c181c3cfd43f76":{
+    "837b4219f0fa41c1ab10234ac301ebfc":{
       "scriptId":"u15"},
-    "3782ff02c6b84c1bae13fd81f74a1988":{
+    "73c7f26e05f14a3aa9ae9ee28c2b3871":{
       "scriptId":"u16"},
-    "60cb7a8fbbaf496e8f3c2d99b1e00234":{
+    "ac952bcd0e20413882c181c3cfd43f76":{
       "scriptId":"u17"},
-    "86c829d8c3ec478ca40643b262576099":{
+    "3782ff02c6b84c1bae13fd81f74a1988":{
       "scriptId":"u18"},
-    "4aa29a849eea4393b66a6b3edaf47166":{
+    "60cb7a8fbbaf496e8f3c2d99b1e00234":{
       "scriptId":"u19"},
-    "ff9170b2c45e4f298d40b2b503bae6ef":{
+    "86c829d8c3ec478ca40643b262576099":{
       "scriptId":"u20"},
-    "ba55c4b32a0e4e93b4dc0888f463582c":{
+    "4aa29a849eea4393b66a6b3edaf47166":{
       "scriptId":"u21"},
-    "38cc812fa8d344b68f6da910b1c18f9e":{
+    "ff9170b2c45e4f298d40b2b503bae6ef":{
       "scriptId":"u22"},
-    "89f067a959714d7bbacd6661dfc7b9f8":{
+    "ba55c4b32a0e4e93b4dc0888f463582c":{
       "scriptId":"u23"},
+    "38cc812fa8d344b68f6da910b1c18f9e":{
+      "scriptId":"u24"},
+    "89f067a959714d7bbacd6661dfc7b9f8":{
+      "scriptId":"u25"},
     "dc1e343c458e4e438bcf12c5e3467a45":{
-      "scriptId":"u24"}}});
+      "scriptId":"u26"}}});

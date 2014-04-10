@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"create_new_event.html",
-  "generationDate":new Date(1397120260639.01),
+  "generationDate":new Date(1397121769402.6),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -119,77 +119,7 @@
             "onClick":{
               "description":"OnClick",
               "cases":[{
-                  "description":"Case 1<br> (If text on date equals &quot;&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetWidgetText",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":false,
-                          "isFocused":false,
-                          "isTarget":false,
-                          "value":["115f104f2e5f45bca1885b56183e92ef"]}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set errorMsg to blank",
-                      "panelsToStates":[{
-                          "panelPath":["805047b8a5924bfc97e36a66e8129ff7"],
-                          "stateInfo":{
-                            "setStateType":"diagram",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "compress":false}}}]}]},
-{
-                  "description":"Case 2<br> (Else If text on time equals &quot;&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetWidgetText",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":false,
-                          "isFocused":false,
-                          "isTarget":false,
-                          "value":["99bf2cc046c047b2a5cb7fbd729d588d"]}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set errorMsg to blank",
-                      "panelsToStates":[{
-                          "panelPath":["805047b8a5924bfc97e36a66e8129ff7"],
-                          "stateInfo":{
-                            "setStateType":"diagram",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "compress":false}}}]}]},
-{
-                  "description":"Case 3<br> (Else If True)",
+                  "description":"Case 3",
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"linkWindow",
@@ -232,125 +162,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/create_new_event/u5.png"}},
-{
-          "id":"805047b8a5924bfc97e36a66e8129ff7",
-          "label":"errorMsg",
-          "type":"dynamicPanel",
-          "styleType":"dynamicPanel",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":0,
-              "y":210},
-            "size":{
-              "width":320,
-              "height":200}},
-          "adaptiveStyles":{
-},
-          "scrollbars":"none",
-          "fitToContent":false,
-          "propagate":false,
-          "diagrams":[{
-              "id":"052e1f2787fe4e8b8a5bfbe33dcc2fa8",
-              "label":"State1",
-              "type":"Axure:PanelDiagram",
-              "objects":[],
-              "style":{
-                "fill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF},
-                "image":null,
-                "imageHorizontalAlignment":"near",
-                "imageVerticalAlignment":"near",
-                "imageRepeat":"auto"},
-              "adaptiveStyles":{
-}},
-{
-              "id":"f774c6eaee4f4bb591303d6001fb16b6",
-              "label":"blank",
-              "type":"Axure:PanelDiagram",
-              "objects":[{
-                  "id":"90d3cdce58264ac3a63c2440b49038eb",
-                  "label":"",
-                  "parentDynamicPanel":"805047b8a5924bfc97e36a66e8129ff7",
-                  "panelIndex":1,
-                  "type":"imageBox",
-                  "styleType":"imageBox",
-                  "visible":true,
-                  "style":{
-                    "size":{
-                      "width":320,
-                      "height":200}},
-                  "adaptiveStyles":{
-},
-                  "objects":[{
-                      "id":"228e6205f78f4187813160141ada6531",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"805047b8a5924bfc97e36a66e8129ff7",
-                      "panelIndex":1,
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "size":{
-                          "width":320,
-                          "height":200}},
-                      "adaptiveStyles":{
-}}],
-                  "images":{
-                    "normal~":"images/register/u4.png"}},
-{
-                  "id":"a979c1894a004aad94a005e9f3a1ae6c",
-                  "label":"",
-                  "parentDynamicPanel":"805047b8a5924bfc97e36a66e8129ff7",
-                  "panelIndex":1,
-                  "type":"imageMapRegion",
-                  "styleType":"imageMapRegion",
-                  "visible":true,
-                  "style":{
-                    "location":{
-                      "x":270,
-                      "y":47},
-                    "size":{
-                      "width":40,
-                      "height":30}},
-                  "adaptiveStyles":{
-},
-                  "interactionMap":{
-                    "onClick":{
-                      "description":"OnClick",
-                      "cases":[{
-                          "description":"Case 1",
-                          "isNewIfGroup":false,
-                          "actions":[{
-                              "action":"setPanelState",
-                              "description":"Set errorMsg to State1",
-                              "panelsToStates":[{
-                                  "panelPath":["805047b8a5924bfc97e36a66e8129ff7"],
-                                  "stateInfo":{
-                                    "setStateType":"diagram",
-                                    "stateNumber":1,
-                                    "stateValue":{
-                                      "exprType":"stringLiteral",
-                                      "value":"1",
-                                      "stos":[]},
-                                    "loop":false,
-                                    "showWhenSet":false,
-                                    "options":{
-                                      "compress":false}}}]}]}]}},
-                  "tabbable":true}],
-              "style":{
-                "fill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF},
-                "image":null,
-                "imageHorizontalAlignment":"near",
-                "imageVerticalAlignment":"near",
-                "imageRepeat":"auto"},
-              "adaptiveStyles":{
-}}]}]}},
+            "normal~":"images/create_new_event/u5.png"}}]}},
   "masters":{
 },
   "objectPaths":{
@@ -367,12 +179,4 @@
     "671f8980d02e43e9bd33f42c96a45072":{
       "scriptId":"u5"},
     "41943ef6c6244f3bbb35183e63bc257e":{
-      "scriptId":"u6"},
-    "805047b8a5924bfc97e36a66e8129ff7":{
-      "scriptId":"u7"},
-    "90d3cdce58264ac3a63c2440b49038eb":{
-      "scriptId":"u8"},
-    "228e6205f78f4187813160141ada6531":{
-      "scriptId":"u9"},
-    "a979c1894a004aad94a005e9f3a1ae6c":{
-      "scriptId":"u10"}}});
+      "scriptId":"u6"}}});
