@@ -13,10 +13,6 @@
     "loadFeedbackPlugin":false},
   "sitemap":{
     "rootNodes":[{
-        "pageName":"iphone frame",
-        "type":"Wireframe",
-        "url":"iphone_frame.html"},
-{
         "pageName":"Home",
         "type":"Wireframe",
         "url":"home.html",
@@ -59,7 +55,15 @@
 {
                 "pageName":"Search Result",
                 "type":"Wireframe",
-                "url":"search_result.html"}]}]}]},
+                "url":"search_result.html"},
+{
+                "pageName":"confirmation",
+                "type":"Wireframe",
+                "url":"confirmation.html"}]}]},
+{
+        "pageName":"iphone frame",
+        "type":"Wireframe",
+        "url":"iphone_frame.html"}]},
   "globalVariables":{
     "onloadvariable":""},
   "defaultAdaptiveView":{

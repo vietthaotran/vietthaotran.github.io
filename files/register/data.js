@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"register.html",
-  "generationDate":new Date(1397087733056.16),
+  "generationDate":new Date(1397111429554.94),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -199,7 +199,7 @@
             "fontWeight":"200",
             "location":{
               "x":20,
-              "y":184},
+              "y":192},
             "size":{
               "width":280,
               "height":25}},
@@ -237,7 +237,7 @@
             "fontWeight":"200",
             "location":{
               "x":20,
-              "y":284},
+              "y":293},
             "size":{
               "width":280,
               "height":25}},
@@ -256,7 +256,7 @@
             "fontWeight":"200",
             "location":{
               "x":20,
-              "y":334},
+              "y":343},
             "size":{
               "width":280,
               "height":25}},
@@ -272,7 +272,7 @@
           "style":{
             "location":{
               "x":10,
-              "y":390},
+              "y":392},
             "size":{
               "width":300,
               "height":50}},
