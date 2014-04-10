@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"create_new_event.html",
-  "generationDate":new Date(1397114025516.18),
+  "generationDate":new Date(1397114342675.89),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -73,8 +73,8 @@
             "fontSize":"16px",
             "fontWeight":"200",
             "location":{
-              "x":30,
-              "y":100},
+              "x":28,
+              "y":99},
             "size":{
               "width":200,
               "height":25}},
@@ -92,7 +92,7 @@
             "fontSize":"16px",
             "fontWeight":"200",
             "location":{
-              "x":30,
+              "x":28,
               "y":142},
             "size":{
               "width":200,
