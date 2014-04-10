@@ -1,0 +1,707 @@
+﻿$axure.loadCurrentPage({
+  "url":"likes.html",
+  "generationDate":new Date(1397087733215.1),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"15e1f16b7db34846ad4ec560dbaa5b73",
+    "type":"Axure:Page",
+    "name":"LIKES",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"dacbc0bc1f204e3aaf85014bfeeb7288",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":-15},
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"02a023b070154164ad8503e03afa07e3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":-15},
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/u0.png"}},
+{
+          "id":"c4b5823ccdb84f81bff53cd9b31819b8",
+          "label":"chinesebtn",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":270,
+              "y":110},
+            "size":{
+              "width":30,
+              "height":30},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e64720aa2a304d7c9529fc0d2be6ffa0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":110},
+                "size":{
+                  "width":30,
+                  "height":30},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/chinesebtn_u2.png"}},
+{
+          "id":"e088a2a344c549e6b77186a93a097f1b",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":100},
+            "size":{
+              "width":320,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle chinesebtn",
+                      "objectsToFades":[{
+                          "objectPath":["c4b5823ccdb84f81bff53cd9b31819b8"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"35ecad8aabfd4c559954292c2f1298e7",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":150},
+            "size":{
+              "width":320,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle westernbtn",
+                      "objectsToFades":[{
+                          "objectPath":["abdf9c5360a84f09a16fcb949884a997"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"2b4ea6855ca24a1185c450b69e9a5edb",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":196},
+            "size":{
+              "width":320,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle halalbtn",
+                      "objectsToFades":[{
+                          "objectPath":["38a60f9e000c42518bccf4cabf26d396"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"e2c5c6b0cf5740d6ba72f60ed729dfaa",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":238},
+            "size":{
+              "width":320,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle vegetarianbtn",
+                      "objectsToFades":[{
+                          "objectPath":["ae6636f82903480eb3d7d77c9c263061"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"bccc266365b54fb2853c73aa49024a08",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":282},
+            "size":{
+              "width":320,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle veganbtn",
+                      "objectsToFades":[{
+                          "objectPath":["7008f15116f6454b9a7ee4c900a840ac"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"3032cf5c7e644169b24bf5595540916d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":-1,
+              "y":325},
+            "size":{
+              "width":320,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle thaibtn",
+                      "objectsToFades":[{
+                          "objectPath":["f9ce732aa8e14387963370151d8b476c"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"389fca65cb1b45b7adf2e6356dc48fa7",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":369},
+            "size":{
+              "width":320,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle japbtn",
+                      "objectsToFades":[{
+                          "objectPath":["b58a8918dca64ee384a201513d61b18b"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"7f7b11f7f014421ea385565430e9f9dd",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":413},
+            "size":{
+              "width":320,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle vietbtn",
+                      "objectsToFades":[{
+                          "objectPath":["684598b3340d4133a9513ddf036d98d0"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"abdf9c5360a84f09a16fcb949884a997",
+          "label":"westernbtn",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":270,
+              "y":156},
+            "size":{
+              "width":30,
+              "height":30},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8507e2acc8db4bedb3cca567961ada67",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":156},
+                "size":{
+                  "width":30,
+                  "height":30},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/chinesebtn_u2.png"}},
+{
+          "id":"38a60f9e000c42518bccf4cabf26d396",
+          "label":"halalbtn",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":270,
+              "y":201},
+            "size":{
+              "width":30,
+              "height":30},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a3fe6e1f21584a36b6757704ae510402",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":201},
+                "size":{
+                  "width":30,
+                  "height":30},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/chinesebtn_u2.png"}},
+{
+          "id":"ae6636f82903480eb3d7d77c9c263061",
+          "label":"vegetarianbtn",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":270,
+              "y":242},
+            "size":{
+              "width":30,
+              "height":30},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"31331183a84340f796d873de012979b3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":242},
+                "size":{
+                  "width":30,
+                  "height":30},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/chinesebtn_u2.png"}},
+{
+          "id":"7008f15116f6454b9a7ee4c900a840ac",
+          "label":"veganbtn",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":270,
+              "y":285},
+            "size":{
+              "width":30,
+              "height":30},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"389372c91be84d8aa0e71bc4d3ff00d7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":285},
+                "size":{
+                  "width":30,
+                  "height":30},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/chinesebtn_u2.png"}},
+{
+          "id":"f9ce732aa8e14387963370151d8b476c",
+          "label":"thaibtn",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":270,
+              "y":327},
+            "size":{
+              "width":30,
+              "height":30},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5b5b117c76234da893a5071149dc5d34",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":327},
+                "size":{
+                  "width":30,
+                  "height":30},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/chinesebtn_u2.png"}},
+{
+          "id":"b58a8918dca64ee384a201513d61b18b",
+          "label":"japbtn",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":270,
+              "y":374},
+            "size":{
+              "width":30,
+              "height":30},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a97a683feaa442ed91b9ec9ad1a55b8e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":374},
+                "size":{
+                  "width":30,
+                  "height":30},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/chinesebtn_u2.png"}},
+{
+          "id":"684598b3340d4133a9513ddf036d98d0",
+          "label":"vietbtn",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":270,
+              "y":417},
+            "size":{
+              "width":30,
+              "height":30},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"26d5db65d3754d84a5e5c178be52b193",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":417},
+                "size":{
+                  "width":30,
+                  "height":30},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/likes/chinesebtn_u2.png"}},
+{
+          "id":"6ca7bbcdb1934479b9ccda0cfb3021f8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":495},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open ALLERGIES in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"allergies.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"71b2562f458a414c814ba1813d368cb9",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":60,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Back in Current Window",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "dacbc0bc1f204e3aaf85014bfeeb7288":{
+      "scriptId":"u0"},
+    "02a023b070154164ad8503e03afa07e3":{
+      "scriptId":"u1"},
+    "c4b5823ccdb84f81bff53cd9b31819b8":{
+      "scriptId":"u2"},
+    "e64720aa2a304d7c9529fc0d2be6ffa0":{
+      "scriptId":"u3"},
+    "e088a2a344c549e6b77186a93a097f1b":{
+      "scriptId":"u4"},
+    "35ecad8aabfd4c559954292c2f1298e7":{
+      "scriptId":"u5"},
+    "2b4ea6855ca24a1185c450b69e9a5edb":{
+      "scriptId":"u6"},
+    "e2c5c6b0cf5740d6ba72f60ed729dfaa":{
+      "scriptId":"u7"},
+    "bccc266365b54fb2853c73aa49024a08":{
+      "scriptId":"u8"},
+    "3032cf5c7e644169b24bf5595540916d":{
+      "scriptId":"u9"},
+    "389fca65cb1b45b7adf2e6356dc48fa7":{
+      "scriptId":"u10"},
+    "7f7b11f7f014421ea385565430e9f9dd":{
+      "scriptId":"u11"},
+    "abdf9c5360a84f09a16fcb949884a997":{
+      "scriptId":"u12"},
+    "8507e2acc8db4bedb3cca567961ada67":{
+      "scriptId":"u13"},
+    "38a60f9e000c42518bccf4cabf26d396":{
+      "scriptId":"u14"},
+    "a3fe6e1f21584a36b6757704ae510402":{
+      "scriptId":"u15"},
+    "ae6636f82903480eb3d7d77c9c263061":{
+      "scriptId":"u16"},
+    "31331183a84340f796d873de012979b3":{
+      "scriptId":"u17"},
+    "7008f15116f6454b9a7ee4c900a840ac":{
+      "scriptId":"u18"},
+    "389372c91be84d8aa0e71bc4d3ff00d7":{
+      "scriptId":"u19"},
+    "f9ce732aa8e14387963370151d8b476c":{
+      "scriptId":"u20"},
+    "5b5b117c76234da893a5071149dc5d34":{
+      "scriptId":"u21"},
+    "b58a8918dca64ee384a201513d61b18b":{
+      "scriptId":"u22"},
+    "a97a683feaa442ed91b9ec9ad1a55b8e":{
+      "scriptId":"u23"},
+    "684598b3340d4133a9513ddf036d98d0":{
+      "scriptId":"u24"},
+    "26d5db65d3754d84a5e5c178be52b193":{
+      "scriptId":"u25"},
+    "6ca7bbcdb1934479b9ccda0cfb3021f8":{
+      "scriptId":"u26"},
+    "71b2562f458a414c814ba1813d368cb9":{
+      "scriptId":"u27"}}});

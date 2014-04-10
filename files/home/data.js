@@ -1,0 +1,209 @@
+﻿$axure.loadCurrentPage({
+  "url":"home.html",
+  "generationDate":new Date(1397087732782.99),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"da5abd934c0243e68430c8d291da2ece",
+    "type":"Axure:Page",
+    "name":"Home",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"92557114f8a04b6fa7ef4bf7ad9309f5",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":-15},
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f3590a5f5ec44f109831732516f3003f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":-15},
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.png"}},
+{
+          "id":"d500c8f4788946c6b82c4e8a9518db42",
+          "label":"USERNAME",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'SourceSansPro-Light', 'Source Sans Pro ExtraLight', 'Source Sans Pro'",
+            "fontSize":"16px",
+            "fontWeight":"200",
+            "location":{
+              "x":20,
+              "y":230},
+            "size":{
+              "width":280,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "placeholderText":"USERNAME"},
+{
+          "id":"3d5035649bd64bafa8bd2e161afb4847",
+          "label":"PASSWORD",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'SourceSansPro-Light', 'Source Sans Pro ExtraLight', 'Source Sans Pro'",
+            "fontSize":"16px",
+            "fontWeight":"200",
+            "location":{
+              "x":20,
+              "y":280},
+            "size":{
+              "width":280,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "placeholderText":"PASSWORD"},
+{
+          "id":"6eb69b9fda8340fe98456315df1967fe",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":160,
+              "y":320},
+            "size":{
+              "width":150,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open REGISTER in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"register.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"2196217e0ac7406bb832d0e8d4c73d71",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":320},
+            "size":{
+              "width":150,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Homepage-confirmed in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"homepage-confirmed.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"284c2c7f437a49ba93744af9d7cf28c6",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":410},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open FbLogin in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"fblogin.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "92557114f8a04b6fa7ef4bf7ad9309f5":{
+      "scriptId":"u0"},
+    "f3590a5f5ec44f109831732516f3003f":{
+      "scriptId":"u1"},
+    "d500c8f4788946c6b82c4e8a9518db42":{
+      "scriptId":"u2"},
+    "3d5035649bd64bafa8bd2e161afb4847":{
+      "scriptId":"u3"},
+    "6eb69b9fda8340fe98456315df1967fe":{
+      "scriptId":"u4"},
+    "2196217e0ac7406bb832d0e8d4c73d71":{
+      "scriptId":"u5"},
+    "284c2c7f437a49ba93744af9d7cf28c6":{
+      "scriptId":"u6"}}});
