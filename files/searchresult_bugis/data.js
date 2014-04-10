@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"searchresult_bugis.html",
-  "generationDate":new Date(1397121770061.49),
+  "generationDate":new Date(1397125516921.84),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -355,6 +355,32 @@
                         "url":"confirmation.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"53c39455bf5c4aad88b0ec5386aff474",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":60,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Back in Current Window",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
           "tabbable":true}]}},
   "masters":{
 },
@@ -382,4 +408,6 @@
     "970c5d3989e74352ab5e5f2a528203e0":{
       "scriptId":"u10"},
     "a9b01c041c194308903fba9dc2c77ea2":{
-      "scriptId":"u11"}}});
+      "scriptId":"u11"},
+    "53c39455bf5c4aad88b0ec5386aff474":{
+      "scriptId":"u12"}}});

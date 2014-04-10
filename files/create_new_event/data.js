@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"create_new_event.html",
-  "generationDate":new Date(1397121769402.6),
+  "generationDate":new Date(1397125516339.21),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -30,7 +30,7 @@
 },
     "diagram":{
       "objects":[{
-          "id":"54f701ce436c4e25a27921abd0c0e333",
+          "id":"072ff2946e8542849daad2b27cf47228",
           "label":"",
           "type":"imageBox",
           "styleType":"imageBox",
@@ -45,7 +45,7 @@
           "adaptiveStyles":{
 },
           "objects":[{
-              "id":"ccc035441a73477e9048ed730ed99228",
+              "id":"61a5c8a5f4e0446eaa0372f856cf1d9c",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
@@ -73,14 +73,13 @@
             "fontSize":"16px",
             "fontWeight":"200",
             "location":{
-              "x":28,
-              "y":99},
+              "x":80,
+              "y":115},
             "size":{
               "width":200,
               "height":25}},
           "adaptiveStyles":{
-},
-          "placeholderText":"DATE"},
+}},
 {
           "id":"99bf2cc046c047b2a5cb7fbd729d588d",
           "label":"time",
@@ -92,14 +91,13 @@
             "fontSize":"16px",
             "fontWeight":"200",
             "location":{
-              "x":28,
-              "y":142},
+              "x":80,
+              "y":163},
             "size":{
               "width":200,
               "height":40}},
           "adaptiveStyles":{
-},
-          "placeholderText":"TIME"},
+}},
 {
           "id":"7e1c737bc84b47018dbd8ef6be978d2b",
           "label":"",
@@ -162,13 +160,69 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/create_new_event/u5.png"}}]}},
+            "normal~":"images/create_new_event/u5.png"}},
+{
+          "id":"2b8ed8cb423a42688e612b0aa5dcf49e",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":60,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Back in Current Window",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"cc36b2e139174da1ac1b6472b0bb60e0",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":272,
+              "y":10},
+            "size":{
+              "width":38,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Homepage-confirmed in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"homepage-confirmed.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
   "masters":{
 },
   "objectPaths":{
-    "54f701ce436c4e25a27921abd0c0e333":{
+    "072ff2946e8542849daad2b27cf47228":{
       "scriptId":"u0"},
-    "ccc035441a73477e9048ed730ed99228":{
+    "61a5c8a5f4e0446eaa0372f856cf1d9c":{
       "scriptId":"u1"},
     "115f104f2e5f45bca1885b56183e92ef":{
       "scriptId":"u2"},
@@ -179,4 +233,8 @@
     "671f8980d02e43e9bd33f42c96a45072":{
       "scriptId":"u5"},
     "41943ef6c6244f3bbb35183e63bc257e":{
-      "scriptId":"u6"}}});
+      "scriptId":"u6"},
+    "2b8ed8cb423a42688e612b0aa5dcf49e":{
+      "scriptId":"u7"},
+    "cc36b2e139174da1ac1b6472b0bb60e0":{
+      "scriptId":"u8"}}});

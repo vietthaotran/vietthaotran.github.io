@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"location.html",
-  "generationDate":new Date(1397121769816.22),
+  "generationDate":new Date(1397125516684.33),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -207,23 +207,59 @@
             "onTextChange":{
               "description":"OnTextChange",
               "cases":[{
-                  "description":"Bugis<br> (If text on This equals &quot;bugis&quot;)",
+                  "description":"Bugis<br> (If text on This equals &quot;bugis&quot; or text on This equals &quot;Bugis&quot; or text on This equals &quot;BUGIS&quot;)",
                   "isNewIfGroup":false,
                   "condition":{
                     "exprType":"binaryOp",
-                    "op":"==",
+                    "op":"||",
                     "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetWidgetText",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":true,
+                            "isFocused":false,
+                            "isTarget":false}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"bugis",
+                        "stos":[]}},
                     "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"bugis",
-                      "stos":[]}},
+                      "exprType":"binaryOp",
+                      "op":"||",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetText",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":true,
+                              "isFocused":false,
+                              "isTarget":false}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"Bugis",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetText",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":true,
+                              "isFocused":false,
+                              "isTarget":false}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"BUGIS",
+                          "stos":[]}}}},
                   "actions":[{
                       "action":"linkWindow",
                       "description":"Open SearchResult_bugis in Current Window",
@@ -233,23 +269,59 @@
                         "includeVariables":true},
                       "linkType":"current"}]},
 {
-                  "description":"Orchard<br> (Else If text on This equals &quot;orchard&quot;)",
+                  "description":"Orchard<br> (Else If text on This equals &quot;orchard&quot; or text on This equals &quot;Orchard&quot; or text on This equals &quot;ORCHARD&quot;)",
                   "isNewIfGroup":false,
                   "condition":{
                     "exprType":"binaryOp",
-                    "op":"==",
+                    "op":"||",
                     "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetWidgetText",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":true,
+                            "isFocused":false,
+                            "isTarget":false}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"orchard",
+                        "stos":[]}},
                     "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"orchard",
-                      "stos":[]}},
+                      "exprType":"binaryOp",
+                      "op":"||",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetText",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":true,
+                              "isFocused":false,
+                              "isTarget":false}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"Orchard",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetText",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":true,
+                              "isFocused":false,
+                              "isTarget":false}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"ORCHARD",
+                          "stos":[]}}}},
                   "actions":[{
                       "action":"linkWindow",
                       "description":"Open SearchResult_orchard in Current Window",
