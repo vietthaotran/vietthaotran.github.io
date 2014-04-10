@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"home.html",
-  "generationDate":new Date(1397114341408.94),
+  "generationDate":new Date(1397120259378.67),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -30,6 +30,333 @@
 },
     "diagram":{
       "objects":[{
+          "id":"fa2ce85e0c524caca2565ce695e59070",
+          "label":"errorMsg",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":210},
+            "size":{
+              "width":320,
+              "height":130}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"7aeb6a2cd29f403e92ee90e344a4a76e",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"360918831d3f4e558317dc162ef1d3a4",
+              "label":"invalidlogin",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"550fe64beed245a6a902550d3afc23d1",
+                  "label":"",
+                  "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                  "panelIndex":1,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":-1,
+                      "y":-20},
+                    "size":{
+                      "width":320,
+                      "height":200}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"0afb53d159dc4419bcf49c3e6964055d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":-1,
+                          "y":-20},
+                        "size":{
+                          "width":320,
+                          "height":200}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u1.png"}},
+{
+                  "id":"2a5348efcf2e4606912c491844ec58df",
+                  "label":"",
+                  "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                  "panelIndex":1,
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":270,
+                      "y":24},
+                    "size":{
+                      "width":30,
+                      "height":30}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set errorMsg to State1",
+                              "panelsToStates":[{
+                                  "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelOrder",
+                              "description":"Send errorMsg to Back",
+                              "panelPaths":[{
+                                  "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                                  "setOrderInfo":{
+                                    "bringToFront":false}}]}]}]}},
+                  "tabbable":true}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"b0fb82867d644127b2c22946b145cf80",
+              "label":"pwBlank",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"84d212d21b694afabac9e7128ecf2ade",
+                  "label":"",
+                  "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                  "panelIndex":2,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":-24},
+                    "size":{
+                      "width":320,
+                      "height":200}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"99dda9f48df24ba287a6a7a3d214add7",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                      "panelIndex":2,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":0,
+                          "y":-24},
+                        "size":{
+                          "width":320,
+                          "height":200}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u4.png"}},
+{
+                  "id":"afb4823b3f6f4bd6aaf406b196cc14bc",
+                  "label":"",
+                  "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                  "panelIndex":2,
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":267,
+                      "y":22},
+                    "size":{
+                      "width":30,
+                      "height":30}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set errorMsg to State1",
+                              "panelsToStates":[{
+                                  "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelOrder",
+                              "description":"Send errorMsg to Back",
+                              "panelPaths":[{
+                                  "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                                  "setOrderInfo":{
+                                    "bringToFront":false}}]}]}]}},
+                  "tabbable":true}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"1d02e8bf1dcc4c7ca5222938554222cb",
+              "label":"usernameBlank",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"3bd66b67e5404bf5b39c622c036ed287",
+                  "label":"",
+                  "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                  "panelIndex":3,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":-20},
+                    "size":{
+                      "width":320,
+                      "height":200}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"0a4b2577703f41f7990837bb07c4f124",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                      "panelIndex":3,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":0,
+                          "y":-20},
+                        "size":{
+                          "width":320,
+                          "height":200}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u7.png"}},
+{
+                  "id":"f2c02ae37e1c4ddd90ead33b91cee71d",
+                  "label":"",
+                  "parentDynamicPanel":"fa2ce85e0c524caca2565ce695e59070",
+                  "panelIndex":3,
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":269,
+                      "y":24},
+                    "size":{
+                      "width":30,
+                      "height":30}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set errorMsg to State1",
+                              "panelsToStates":[{
+                                  "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelOrder",
+                              "description":"Send errorMsg to Back",
+                              "panelPaths":[{
+                                  "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                                  "setOrderInfo":{
+                                    "bringToFront":false}}]}]}]}},
+                  "tabbable":true}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
           "id":"92557114f8a04b6fa7ef4bf7ad9309f5",
           "label":"",
           "type":"imageBox",
@@ -61,7 +388,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/home/u0.png"}},
+            "normal~":"images/home/u10.png"}},
 {
           "id":"d500c8f4788946c6b82c4e8a9518db42",
           "label":"USERNAME",
@@ -149,14 +476,145 @@
             "onClick":{
               "description":"OnClick",
               "cases":[{
-                  "description":"Case 1",
+                  "description":"invalid<br> (If text on USERNAME does not equal text on PASSWORD)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["d500c8f4788946c6b82c4e8a9518db42"]}]},
+                    "rightExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["3d5035649bd64bafa8bd2e161afb4847"]}]}},
+                  "actions":[{
+                      "action":"setPanelOrder",
+                      "description":"Bring errorMsg to Front ",
+                      "panelPaths":[{
+                          "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                          "setOrderInfo":{
+                            "bringToFront":true}}]},
+{
+                      "action":"setPanelState",
+                      "description":"Set errorMsg to invalidlogin",
+                      "panelsToStates":[{
+                          "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"Case 1<br> (Else If text on USERNAME equals &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["d500c8f4788946c6b82c4e8a9518db42"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelOrder",
+                      "description":"Bring errorMsg to Front ",
+                      "panelPaths":[{
+                          "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                          "setOrderInfo":{
+                            "bringToFront":true}}]},
+{
+                      "action":"setPanelState",
+                      "description":"Set errorMsg to usernameBlank",
+                      "panelsToStates":[{
+                          "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":4,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"Case 2<br> (Else If text on PASSWORD equals &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["3d5035649bd64bafa8bd2e161afb4847"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelOrder",
+                      "description":"Bring errorMsg to Front ",
+                      "panelPaths":[{
+                          "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                          "setOrderInfo":{
+                            "bringToFront":true}}]},
+{
+                      "action":"setPanelState",
+                      "description":"Set errorMsg to pwBlank",
+                      "panelsToStates":[{
+                          "panelPath":["fa2ce85e0c524caca2565ce695e59070"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":3,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"Else<br> (Else If True)",
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"linkWindow",
-                      "description":"Open Homepage-confirmed in Current Window",
+                      "description":"Open LIKES in Current Window",
                       "target":{
                         "targetType":"page",
-                        "url":"homepage-confirmed.html",
+                        "url":"likes.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true},
@@ -193,17 +651,37 @@
   "masters":{
 },
   "objectPaths":{
-    "92557114f8a04b6fa7ef4bf7ad9309f5":{
+    "fa2ce85e0c524caca2565ce695e59070":{
       "scriptId":"u0"},
-    "f3590a5f5ec44f109831732516f3003f":{
+    "550fe64beed245a6a902550d3afc23d1":{
       "scriptId":"u1"},
-    "d500c8f4788946c6b82c4e8a9518db42":{
+    "0afb53d159dc4419bcf49c3e6964055d":{
       "scriptId":"u2"},
-    "3d5035649bd64bafa8bd2e161afb4847":{
+    "2a5348efcf2e4606912c491844ec58df":{
       "scriptId":"u3"},
-    "6eb69b9fda8340fe98456315df1967fe":{
+    "84d212d21b694afabac9e7128ecf2ade":{
       "scriptId":"u4"},
-    "2196217e0ac7406bb832d0e8d4c73d71":{
+    "99dda9f48df24ba287a6a7a3d214add7":{
       "scriptId":"u5"},
+    "afb4823b3f6f4bd6aaf406b196cc14bc":{
+      "scriptId":"u6"},
+    "3bd66b67e5404bf5b39c622c036ed287":{
+      "scriptId":"u7"},
+    "0a4b2577703f41f7990837bb07c4f124":{
+      "scriptId":"u8"},
+    "f2c02ae37e1c4ddd90ead33b91cee71d":{
+      "scriptId":"u9"},
+    "92557114f8a04b6fa7ef4bf7ad9309f5":{
+      "scriptId":"u10"},
+    "f3590a5f5ec44f109831732516f3003f":{
+      "scriptId":"u11"},
+    "d500c8f4788946c6b82c4e8a9518db42":{
+      "scriptId":"u12"},
+    "3d5035649bd64bafa8bd2e161afb4847":{
+      "scriptId":"u13"},
+    "6eb69b9fda8340fe98456315df1967fe":{
+      "scriptId":"u14"},
+    "2196217e0ac7406bb832d0e8d4c73d71":{
+      "scriptId":"u15"},
     "284c2c7f437a49ba93744af9d7cf28c6":{
-      "scriptId":"u6"}}});
+      "scriptId":"u16"}}});

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"add_participant.html",
-  "generationDate":new Date(1397114342881.46),
+  "generationDate":new Date(1397120260789.72),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -360,11 +360,11 @@
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"fadeWidget",
-                      "description":"Show 3",
+                      "description":"Toggle 3",
                       "objectsToFades":[{
                           "objectPath":["4aa29a849eea4393b66a6b3edaf47166"],
                           "fadeInfo":{
-                            "fadeType":"show",
+                            "fadeType":"toggle",
                             "options":{
                               "showType":"none"}}}]}]}]}},
           "tabbable":true},

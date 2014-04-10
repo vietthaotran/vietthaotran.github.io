@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"fblogin.html",
-  "generationDate":new Date(1397114341557.36),
+  "generationDate":new Date(1397120259561.37),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -130,7 +130,7 @@
           "style":{
             "location":{
               "x":0,
-              "y":-18},
+              "y":-15},
             "size":{
               "width":320,
               "height":568}},
@@ -146,7 +146,7 @@
               "style":{
                 "location":{
                   "x":0,
-                  "y":-18},
+                  "y":-15},
                 "size":{
                   "width":320,
                   "height":568}},

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"register.html",
-  "generationDate":new Date(1397114341692.56),
+  "generationDate":new Date(1397120259719.62),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -153,6 +153,104 @@
                 "imageVerticalAlignment":"near",
                 "imageRepeat":"auto"},
               "adaptiveStyles":{
+}},
+{
+              "id":"cce0e226399a454f9dc90e57016dfdf5",
+              "label":"blankError",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"d75a79155a8b437db63be76eb0d9bc41",
+                  "label":"",
+                  "parentDynamicPanel":"1ab6ca86502841f9874ec7facf87d69d",
+                  "panelIndex":2,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":-10,
+                      "y":-33},
+                    "size":{
+                      "width":320,
+                      "height":200}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"34c72ccc17954ca3a03f5a2b6a99dcd9",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"1ab6ca86502841f9874ec7facf87d69d",
+                      "panelIndex":2,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":-10,
+                          "y":-33},
+                        "size":{
+                          "width":320,
+                          "height":200}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/register/u4.png"}},
+{
+                  "id":"d4e921b45af94a9eb09fd6b91ce79b5a",
+                  "label":"",
+                  "parentDynamicPanel":"1ab6ca86502841f9874ec7facf87d69d",
+                  "panelIndex":2,
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":252,
+                      "y":13},
+                    "size":{
+                      "width":40,
+                      "height":30}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set errorMsg to State1",
+                              "panelsToStates":[{
+                                  "panelPath":["1ab6ca86502841f9874ec7facf87d69d"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelOrder",
+                              "description":"Send errorMsg to Back",
+                              "panelPaths":[{
+                                  "panelPath":["1ab6ca86502841f9874ec7facf87d69d"],
+                                  "setOrderInfo":{
+                                    "bringToFront":false}}]}]}]}},
+                  "tabbable":true}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
 }}]},
 {
           "id":"33466f0b6ec74f70afe8ac1b3877f97d",
@@ -186,7 +284,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/register/u4.png"}},
+            "normal~":"images/register/u7.png"}},
 {
           "id":"b8b62b3cadb44419a859be33160aaa58",
           "label":"FULLNAME",
@@ -218,7 +316,7 @@
             "fontWeight":"200",
             "location":{
               "x":20,
-              "y":235},
+              "y":243},
             "size":{
               "width":280,
               "height":25}},
@@ -237,7 +335,7 @@
             "fontWeight":"200",
             "location":{
               "x":20,
-              "y":293},
+              "y":290},
             "size":{
               "width":280,
               "height":25}},
@@ -256,7 +354,7 @@
             "fontWeight":"200",
             "location":{
               "x":20,
-              "y":343},
+              "y":340},
             "size":{
               "width":280,
               "height":25}},
@@ -282,11 +380,110 @@
             "onClick":{
               "description":"OnClick",
               "cases":[{
-                  "description":"If password matches<br> (If text on PASSWORD equals text on CONFIRMED_PASSWORD)",
+                  "description":"Case 1<br> (If text on FULLNAME equals &quot;&quot; or text on USERNAME equals &quot;&quot; or text on PASSWORD equals &quot;&quot; or text on CONFIRMED_PASSWORD equals &quot;&quot;)",
                   "isNewIfGroup":false,
                   "condition":{
                     "exprType":"binaryOp",
-                    "op":"==",
+                    "op":"||",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["b8b62b3cadb44419a859be33160aaa58"]}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"||",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetText",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":false,
+                              "isFocused":false,
+                              "isTarget":false,
+                              "value":["cc47f61ba2664215a4444564ded4b9d8"]}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"||",
+                        "leftExpr":{
+                          "exprType":"binaryOp",
+                          "op":"==",
+                          "leftExpr":{
+                            "exprType":"fcall",
+                            "functionName":"GetWidgetText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["91c9e12018984a7f8267a16d129bd452"]}]},
+                          "rightExpr":{
+                            "exprType":"stringLiteral",
+                            "value":"",
+                            "stos":[]}},
+                        "rightExpr":{
+                          "exprType":"binaryOp",
+                          "op":"==",
+                          "leftExpr":{
+                            "exprType":"fcall",
+                            "functionName":"GetWidgetText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["ddb14dbe872b4a1babedb8cfe71f9313"]}]},
+                          "rightExpr":{
+                            "exprType":"stringLiteral",
+                            "value":"",
+                            "stos":[]}}}}},
+                  "actions":[{
+                      "action":"setPanelOrder",
+                      "description":"Bring errorMsg to Front ",
+                      "panelPaths":[{
+                          "panelPath":["1ab6ca86502841f9874ec7facf87d69d"],
+                          "setOrderInfo":{
+                            "bringToFront":true}}]},
+{
+                      "action":"setPanelState",
+                      "description":"Set errorMsg to blankError",
+                      "panelsToStates":[{
+                          "panelPath":["1ab6ca86502841f9874ec7facf87d69d"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":3,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"if not<br> (Else If text on PASSWORD does not equal text on CONFIRMED_PASSWORD)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
                     "leftExpr":{
                       "exprType":"fcall",
                       "functionName":"GetWidgetText",
@@ -305,17 +502,6 @@
                           "isFocused":false,
                           "isTarget":false,
                           "value":["ddb14dbe872b4a1babedb8cfe71f9313"]}]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open LIKES in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"likes.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
-{
-                  "description":"if not<br> (Else If True)",
-                  "isNewIfGroup":false,
                   "actions":[{
                       "action":"setPanelOrder",
                       "description":"Bring errorMsg to Front ",
@@ -338,7 +524,18 @@
                             "loop":false,
                             "showWhenSet":false,
                             "options":{
-                              "compress":false}}}]}]}]}},
+                              "compress":false}}}]}]},
+{
+                  "description":"else<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open LIKES in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"likes.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
           "tabbable":true},
 {
           "id":"168c43a38c0743a7ab994f36ad5668be",
@@ -380,19 +577,25 @@
       "scriptId":"u2"},
     "6dfb66d78c0047c5adab4dc326ededcb":{
       "scriptId":"u3"},
-    "33466f0b6ec74f70afe8ac1b3877f97d":{
+    "d75a79155a8b437db63be76eb0d9bc41":{
       "scriptId":"u4"},
-    "f9976868e5e54764b06b9177e0bc00db":{
+    "34c72ccc17954ca3a03f5a2b6a99dcd9":{
       "scriptId":"u5"},
-    "b8b62b3cadb44419a859be33160aaa58":{
+    "d4e921b45af94a9eb09fd6b91ce79b5a":{
       "scriptId":"u6"},
-    "cc47f61ba2664215a4444564ded4b9d8":{
+    "33466f0b6ec74f70afe8ac1b3877f97d":{
       "scriptId":"u7"},
-    "91c9e12018984a7f8267a16d129bd452":{
+    "f9976868e5e54764b06b9177e0bc00db":{
       "scriptId":"u8"},
-    "ddb14dbe872b4a1babedb8cfe71f9313":{
+    "b8b62b3cadb44419a859be33160aaa58":{
       "scriptId":"u9"},
-    "9c87df8cb744401fb057d2325c0bf3ed":{
+    "cc47f61ba2664215a4444564ded4b9d8":{
       "scriptId":"u10"},
+    "91c9e12018984a7f8267a16d129bd452":{
+      "scriptId":"u11"},
+    "ddb14dbe872b4a1babedb8cfe71f9313":{
+      "scriptId":"u12"},
+    "9c87df8cb744401fb057d2325c0bf3ed":{
+      "scriptId":"u13"},
     "168c43a38c0743a7ab994f36ad5668be":{
-      "scriptId":"u11"}}});
+      "scriptId":"u14"}}});

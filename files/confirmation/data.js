@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"confirmation.html",
-  "generationDate":new Date(1397114343576.63),
+  "generationDate":new Date(1397120261463.35),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -30,36 +30,137 @@
 },
     "diagram":{
       "objects":[{
-          "id":"6547ec94518a409fa3734dc667c90966",
+          "id":"0207b03074054d349718f5061bd303a2",
           "label":"",
           "type":"imageBox",
           "styleType":"imageBox",
           "visible":true,
           "style":{
+            "location":{
+              "x":0,
+              "y":-15},
             "size":{
               "width":320,
-              "height":1400}},
+              "height":568}},
           "adaptiveStyles":{
 },
           "objects":[{
-              "id":"38de52a9d8834d7caaf0ffb9fd3e5f29",
+              "id":"a3ee3806c1b94484849593eec269b457",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
               "styleType":"paragraph",
               "visible":true,
               "style":{
+                "location":{
+                  "x":0,
+                  "y":-15},
                 "size":{
                   "width":320,
-                  "height":1400}},
+                  "height":568}},
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/confirmation/u0.jpg"}}]}},
+            "normal~":"images/confirmation/u0.png"}},
+{
+          "id":"9f246780b9244e099e69d43ba38ebdaa",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":43,
+              "y":282},
+            "size":{
+              "width":230,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Back in Current Window",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"d1c02c9b42aa46668497fb89dad548fe",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":43,
+              "y":342},
+            "size":{
+              "width":230,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Homepage-confirmed in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"homepage-confirmed.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"57f777d78d5d4d8d8e6783cf1d9576f7",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":43,
+              "y":398},
+            "size":{
+              "width":230,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Create New Event in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"create_new_event.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
   "masters":{
 },
   "objectPaths":{
-    "6547ec94518a409fa3734dc667c90966":{
+    "0207b03074054d349718f5061bd303a2":{
       "scriptId":"u0"},
-    "38de52a9d8834d7caaf0ffb9fd3e5f29":{
-      "scriptId":"u1"}}});
+    "a3ee3806c1b94484849593eec269b457":{
+      "scriptId":"u1"},
+    "9f246780b9244e099e69d43ba38ebdaa":{
+      "scriptId":"u2"},
+    "d1c02c9b42aa46668497fb89dad548fe":{
+      "scriptId":"u3"},
+    "57f777d78d5d4d8d8e6783cf1d9576f7":{
+      "scriptId":"u4"}}});

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"iphone_frame.html",
-  "generationDate":new Date(1397114343695.86),
+  "generationDate":new Date(1397120261528.14),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

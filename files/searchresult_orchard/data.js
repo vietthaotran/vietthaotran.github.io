@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"searchresult_orchard.html",
-  "generationDate":new Date(1397114343463.75),
+  "generationDate":new Date(1397120261300.93),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -29,8 +29,37 @@
     "interactionMap":{
 },
     "diagram":{
-      "objects":[]}},
+      "objects":[{
+          "id":"910221c68b32423da442fa0ed427cf08",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":1400}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"34849267d63c4c32ab545c67e8b92641",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":1400}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/searchresult_orchard/u0.jpg"}}]}},
   "masters":{
 },
   "objectPaths":{
-}});
+    "910221c68b32423da442fa0ed427cf08":{
+      "scriptId":"u0"},
+    "34849267d63c4c32ab545c67e8b92641":{
+      "scriptId":"u1"}}});

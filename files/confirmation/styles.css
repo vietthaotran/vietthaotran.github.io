@@ -15,22 +15,49 @@
 #u0 {
   position:absolute;
   left:0px;
-  top:0px;
+  top:-15px;
   width:320px;
-  height:1400px;
+  height:568px;
 }
 #u0_img {
   position:absolute;
   left:0px;
   top:0px;
   width:320px;
-  height:1400px;
+  height:568px;
 }
 #u1 {
   position:absolute;
   left:2px;
-  top:692px;
+  top:276px;
   width:316px;
   visibility:hidden;
   word-wrap:break-word;
+}
+#u2 {
+  position:absolute;
+  left:43px;
+  top:282px;
+  width:230px;
+  height:50px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
+}
+#u3 {
+  position:absolute;
+  left:43px;
+  top:342px;
+  width:230px;
+  height:50px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
+}
+#u4 {
+  position:absolute;
+  left:43px;
+  top:398px;
+  width:230px;
+  height:50px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
 }
