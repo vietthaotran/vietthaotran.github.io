@@ -1,12 +1,12 @@
 ﻿$axure.loadCurrentPage({
-  "url":"confirmation.html",
-  "generationDate":new Date(1397114026635.71),
+  "url":"searchresult_bugis.html",
+  "generationDate":new Date(1397114026230.84),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
-    "packageId":"e2f0faefe0004ae1a9da597af00d9240",
+    "packageId":"4436b1cfd0434572b2498d192e3c2f45",
     "type":"Axure:Page",
-    "name":"confirmation",
+    "name":"SearchResult_bugis",
     "notes":{
 },
     "style":{
@@ -30,7 +30,7 @@
 },
     "diagram":{
       "objects":[{
-          "id":"6547ec94518a409fa3734dc667c90966",
+          "id":"c8807a343d6f4b33981a278c13317356",
           "label":"",
           "type":"imageBox",
           "styleType":"imageBox",
@@ -38,11 +38,11 @@
           "style":{
             "size":{
               "width":320,
-              "height":1400}},
+              "height":1398}},
           "adaptiveStyles":{
 },
           "objects":[{
-              "id":"38de52a9d8834d7caaf0ffb9fd3e5f29",
+              "id":"47b007b3e25b4d0fb28ee5b773c785da",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
@@ -51,15 +51,15 @@
               "style":{
                 "size":{
                   "width":320,
-                  "height":1400}},
+                  "height":1398}},
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/confirmation/u0.jpg"}}]}},
+            "normal~":"images/searchresult_bugis/u0.jpg"}}]}},
   "masters":{
 },
   "objectPaths":{
-    "6547ec94518a409fa3734dc667c90966":{
+    "c8807a343d6f4b33981a278c13317356":{
       "scriptId":"u0"},
-    "38de52a9d8834d7caaf0ffb9fd3e5f29":{
+    "47b007b3e25b4d0fb28ee5b773c785da":{
       "scriptId":"u1"}}});

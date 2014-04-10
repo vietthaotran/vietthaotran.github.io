@@ -7,7 +7,7 @@
     "linkFlowsToPages":true,
     "linkFlowsToPagesNewWindow":true,
     "hideAddress":false,
-    "preventScroll":false,
+    "preventScroll":true,
     "useLabels":false,
     "enabledViewIds":[],
     "loadFeedbackPlugin":false},
@@ -53,9 +53,17 @@
                 "type":"Wireframe",
                 "url":"location.html"},
 {
-                "pageName":"Search Result",
+                "pageName":"Search Result_current",
                 "type":"Wireframe",
-                "url":"search_result.html"},
+                "url":"search_result_current.html"},
+{
+                "pageName":"SearchResult_bugis",
+                "type":"Wireframe",
+                "url":"searchresult_bugis.html"},
+{
+                "pageName":"SearchResult_orchard",
+                "type":"Wireframe",
+                "url":"searchresult_orchard.html"},
 {
                 "pageName":"confirmation",
                 "type":"Wireframe",

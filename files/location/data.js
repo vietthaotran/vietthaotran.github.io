@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"location.html",
-  "generationDate":new Date(1397111430859.52),
+  "generationDate":new Date(1397114025961.1),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -70,7 +70,7 @@
           "visible":true,
           "style":{
             "location":{
-              "x":60,
+              "x":59,
               "y":230},
             "size":{
               "width":210,
@@ -85,10 +85,10 @@
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"linkWindow",
-                      "description":"Open Search Result in Current Window",
+                      "description":"Open Search Result_current in Current Window",
                       "target":{
                         "targetType":"page",
-                        "url":"search_result.html",
+                        "url":"search_result_current.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true},
@@ -180,7 +180,200 @@
                         "url":"homepage-confirmed.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
-          "tabbable":true}]}},
+          "tabbable":true},
+{
+          "id":"8a2eae868142467e8e82b5469847b565",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'SourceSansPro-Regular', 'Source Sans Pro'",
+            "fontSize":"18px",
+            "horizontalAlignment":"center",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF87D4E5,
+              "opacity":1},
+            "location":{
+              "x":59,
+              "y":293},
+            "size":{
+              "width":210,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onTextChange":{
+              "description":"OnTextChange",
+              "cases":[{
+                  "description":"Bugis<br> (If text on This equals &quot;bugis&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"bugis",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open SearchResult_bugis in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"searchresult_bugis.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Orchard<br> (Else If text on This equals &quot;orchard&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"orchard",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open SearchResult_orchard in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"searchresult_orchard.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 1<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set error to State2",
+                      "panelsToStates":[{
+                          "panelPath":["5cdd077380de4f909927c712f5b74e6b"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "placeholderText":"CHOOSE AN AREA"},
+{
+          "id":"5cdd077380de4f909927c712f5b74e6b",
+          "label":"error",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":340},
+            "size":{
+              "width":220,
+              "height":200}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"3af0e91ec42b466e87d3b2524441de85",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"50a024102f4443f0969113de4376ae08",
+              "label":"State2",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"62ce6ea45f864b6391f70c2bd3d6eec7",
+                  "label":"",
+                  "parentDynamicPanel":"5cdd077380de4f909927c712f5b74e6b",
+                  "panelIndex":1,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'SourceSansPro-Regular', 'Source Sans Pro'",
+                    "fontSize":"16px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFFFF,
+                      "opacity":1},
+                    "location":{
+                      "x":8,
+                      "y":15},
+                    "size":{
+                      "width":195,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"786a7ce11b864b5fba8bf78ba257d3c4",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"5cdd077380de4f909927c712f5b74e6b",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'SourceSansPro-Regular', 'Source Sans Pro'",
+                        "fontSize":"16px",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFFFF,
+                          "opacity":1},
+                        "location":{
+                          "x":8,
+                          "y":15},
+                        "size":{
+                          "width":195,
+                          "height":40}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]}]}},
   "masters":{
 },
   "objectPaths":{
@@ -197,4 +390,12 @@
     "d7cde16df2cb4b17bb8ac28cef69299f":{
       "scriptId":"u5"},
     "97416fe6bdcc46eb8e8cd7421a7ef5f0":{
-      "scriptId":"u6"}}});
+      "scriptId":"u6"},
+    "8a2eae868142467e8e82b5469847b565":{
+      "scriptId":"u7"},
+    "5cdd077380de4f909927c712f5b74e6b":{
+      "scriptId":"u8"},
+    "62ce6ea45f864b6391f70c2bd3d6eec7":{
+      "scriptId":"u9"},
+    "786a7ce11b864b5fba8bf78ba257d3c4":{
+      "scriptId":"u10"}}});
