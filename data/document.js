@@ -7,7 +7,7 @@
     "linkFlowsToPages":true,
     "linkFlowsToPagesNewWindow":true,
     "hideAddress":false,
-    "preventScroll":true,
+    "preventScroll":false,
     "useLabels":false,
     "enabledViewIds":[],
     "loadFeedbackPlugin":false},
