@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"allergies.html",
-  "generationDate":new Date(1397187882695.68),
+  "generationDate":new Date(1397187961854.09),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

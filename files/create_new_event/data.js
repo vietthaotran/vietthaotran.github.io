@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"create_new_event.html",
-  "generationDate":new Date(1397187883100.79),
+  "generationDate":new Date(1397187962357.71),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

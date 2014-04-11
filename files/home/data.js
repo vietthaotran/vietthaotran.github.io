@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"home.html",
-  "generationDate":new Date(1397187881914.61),
+  "generationDate":new Date(1397187961139.41),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -611,10 +611,10 @@
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"linkWindow",
-                      "description":"Open LIKES in Current Window",
+                      "description":"Open Homepage-confirmed in Current Window",
                       "target":{
                         "targetType":"page",
-                        "url":"likes.html",
+                        "url":"homepage-confirmed.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true},
